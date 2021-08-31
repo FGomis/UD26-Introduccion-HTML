@@ -1,0 +1,79 @@
+html{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: gray;
+}
+
+h1, h2, hr{
+    color: #5F8F11;
+}
+
+h1{
+    text-align: center;
+    letter-spacing: 8px;
+}
+
+h3{
+    color: #C7823B;
+}
+
+.contenedor{
+    border: 1px solid lightgray;
+    padding: 8px;
+    margin: 30px;
+    background: rgb(235,235,235);
+    background: linear-gradient(0deg, rgba(235,235,235,1) 0%, rgba(255,255,255,1) 35%, rgba(255,255,255,1) 65%, rgba(235,235,235,1) 100%);
+}
+
+.menu{
+    float: left;
+}
+
+.contenido{
+    float: right;
+    width: 900px;
+}
+
+button{
+    background: rgb(203,231,131);
+    background: linear-gradient(0deg, rgba(203,231,131,1) 0%, rgba(255,255,255,1) 84%);
+    border: none;
+    padding: 10px 0 10px 0;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 130px;
+    margin: 6px;
+}
+
+button:hover{
+    background: rgb(229,205,178);
+    background: linear-gradient(0deg, rgba(229,205,178,1) 0%, rgba(255,255,255,1) 84%);
+}
+
+a{
+    text-decoration: none;
+    color: #807755;
+}
+
+ul{
+    list-style: none;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pagina{
+    background-color: white;
+    border: 1px gray solid;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.subcurs{
+    font-style: italic;
+    text-decoration: underline;
+}
